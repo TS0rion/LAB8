@@ -24,10 +24,10 @@ const SignUp = () => {
   return (
     <div className="flex justify-center items-center  ">
       <form
-        className="flex flex-col items-center justify-center  h-[486px] w-[580px]  bg-white rounded-xl mt-8 space-y-4"
+        className="flex flex-col items-center justify-center  h-[520px] w-[580px]  bg-white rounded-xl mt-8 space-y-4 shadow-2xl"
         onSubmit={handleSubmit(onSumbit)}
       >
-        <h1 className="font-bold text-[28px]">Sign In</h1>
+        <h1 className="font-bold text-[28px]">Sign Up</h1>
         <div>
           <input
             type="text"
