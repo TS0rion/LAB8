@@ -3,6 +3,7 @@ import { useForm, type SubmitHandler } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { LoginFormSchema } from "../schema/LoginForm.schema";
 import type { LoginForm } from "../types/LoginForm.type";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   const {
@@ -55,7 +56,7 @@ const Login = () => {
             type="submit"
             className="w-[98px] bg-gray-200 p-1 rounded-md font-semibold"
           >
-            Sign Up
+            <Link to="/sign-up"> Sign Up</Link>
           </button>
         </div>
       </form>
